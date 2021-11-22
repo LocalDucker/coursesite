@@ -5,5 +5,4 @@ return array(
     'logout' => 'user/logout',
     'deleteAccount' => 'user/delete',
     'login' => 'user/register',
-    '' => 'user/register',
 );
