@@ -48,7 +48,7 @@
             <?php if(isset($loginErrors) && is_array($loginErrors)): ?>
                 <ul>
                     <?php foreach ($loginErrors as $error):?>
-                        <li>- <?= $error ?> </li>
+                        <li name="errorMessage">- <?= $error ?> </li>
                     <?php endforeach;?>
                 </ul>
             <?php endif; ?>
@@ -56,7 +56,7 @@
             <input type="text" placeholder="email" name="loginEmail"/>
             <input type="password" placeholder="password" name="loginPassword"/>
             <button name="loginButton">login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
+            <p class="message">Not registered? <a href="#" id = "regLink">Create an account</a></p>
         </form>
         
         

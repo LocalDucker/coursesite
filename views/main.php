@@ -18,8 +18,8 @@
            <li> <?php echo $key . ":" . '<br>' . $value . '<br>';?> </li>
         <?php endforeach;?>
         </ul>
-        <a href="/logout"><button class="buttMain" type="submit">Logout</button></a>
-        <a href="/deleteAccount"><button class="buttMain" type="submit">Delete</button></a>
+        <a href="/logout"><button class="buttMain" type="submit" id="buttLogout">Logout</button></a>
+        <a href="/deleteAccount"><button class="buttMain" type="submit" id="buttDel">Delete</button></a>
 
     </div>
 
